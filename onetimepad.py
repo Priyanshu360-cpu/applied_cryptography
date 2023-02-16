@@ -9,4 +9,4 @@ def convert_to_bits(n,pad):
     while len(result) < pad:
         result=[0]+result
     return result
-print(convert_to_bits(10,8))
+print(convert_to_bits(ord('A'),8))
